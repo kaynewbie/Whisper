@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/**/*'
   s.frameworks = 'UIKit', 'Foundation'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.dependency 'OpenSans'
 end
